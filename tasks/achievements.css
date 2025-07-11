@@ -1,0 +1,48 @@
+/* Umumiy tana stili */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* H1 va H2 uchun dizayn */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Rasmlar konteyneri */
+.images-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* Har bir rasm uchun dizayn */
+.image-item {
+    text-align: center;
+    width: 30%;
+    size: 50px; /* Rasmlar orasidagi masofa uchun */
+}
+
+/* Rasmlarni o'lchamini sozlash */
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Rasm ostidagi matn */
+.image-caption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+}
